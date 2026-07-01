@@ -1,0 +1,50 @@
+h1 {
+  text-align: center;
+  color: rgba(255, 0, 4, 0.878);
+}
+.lotteryContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  height: 40px;
+  width: 200px;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: red;
+  font-size: 22px;
+  margin: 5px;
+}
+.winningBox {
+  background-color: rgb(21, 57, 2);
+  color: rgb(253, 247, 249);
+}
+.highlightedBox {
+  border: 5px solid navy;
+}
+.lottery-sheet-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#pickNumberBtn {
+  /* height: 40px;
+  width: 150px; */
+  padding: 10px 30px;
+  border: none;
+  background-color: chartreuse;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+  color: crimson;
+  font-weight: bold;
+}
+#pickNumberBtn:hover {
+  background-color: darkorchid;
+  color: white;
+}
